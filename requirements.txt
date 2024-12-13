@@ -2,4 +2,5 @@ streamlit
 requests
 certifi
 pandas
+openpyxl
 faker
