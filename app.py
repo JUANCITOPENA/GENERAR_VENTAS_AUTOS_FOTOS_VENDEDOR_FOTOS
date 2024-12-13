@@ -49,7 +49,7 @@ def generar_venta(clientes, vendedores, vehiculos, rango_fechas, cantidad_factur
     for _ in range(cantidad_facturas):
         cliente = random.choice(clientes)
         vendedor = random.choice(vendedores)
-        productos = random.sample(vehiculos, random.randint(1, 3))  # Seleccionar entre 1 y 3 vehículos
+        productos = random.sample(vehiculos, random.randint(1, 5))  # Seleccionar entre 1 y 3 vehículos
         total_venta = sum(producto["precio"] for producto in productos)  # Total de todos los productos
         cantidad_total = sum(1 for _ in productos)  # Cantidad total de vehículos en la factura
         fecha_venta = fake.date_between(start_date=rango_fechas[0], end_date=rango_fechas[1])
@@ -558,12 +558,12 @@ st.markdown(
 # Filtros en Streamlit
 st.sidebar.title('Filtros de Generación de Datos')
 
-num_clientes = st.sidebar.slider('Número de Clientes', 1, 500, 100)
-num_vendedores = st.sidebar.slider('Número de Vendedores', 1, 200, 50)
+num_clientes = st.sidebar.slider('Número de Clientes', 1, 5000, 100)
+num_vendedores = st.sidebar.slider('Número de Vendedores', 1, 500, 50)
 num_vehiculos = st.sidebar.slider('Número de Vehículos a Incluir', 1, len(vehiculos), len(vehiculos))
-rango_fecha_inicio = st.sidebar.date_input('Fecha de Inicio', datetime(2023, 1, 1))
-rango_fecha_fin = st.sidebar.date_input('Fecha de Fin', datetime(2024, 1, 1))
-cantidad_facturas = st.sidebar.slider('Cantidad de Facturas', 1, 1000, 100)
+rango_fecha_inicio = st.sidebar.date_input('Fecha de Inicio', datetime(2020, 1, 1))
+rango_fecha_fin = st.sidebar.date_input('Fecha de Fin', datetime(2024, 12, 12))
+cantidad_facturas = st.sidebar.slider('Cantidad de Facturas', 1, 5000, 200)
 
 # Generar los datos cuando se presiona el botón
 if st.sidebar.button('Generar'):
