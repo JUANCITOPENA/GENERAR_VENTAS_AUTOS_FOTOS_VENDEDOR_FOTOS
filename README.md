@@ -58,7 +58,7 @@ Este proyecto se adapta a diferentes contextos y necesidades, brindando solucion
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone  https://github.com/JUANCITOPENA/GENERAR_VENTAS_AUTOS_FOTOS_VENDEDOR_FOTOS.git
    cd tu_repositorio
    ```
 
@@ -134,7 +134,7 @@ Este proyecto se adapta a diferentes contextos y necesidades, brindando solucion
 
 ## ✨ Autor
 - **Ing. Juancito Peña**
-  - 🚀 Contacto: [LinkedIn](https://www.linkedin.com/in/juancitopeña) | [GitHub](https://github.com/tu_usuario)
+  - 🚀 Contacto: [LinkedIn](https://www.linkedin.com/in/juancitopeña) | [GitHub](https://github.com/JUANCITOPENA)
 
 ---
 
