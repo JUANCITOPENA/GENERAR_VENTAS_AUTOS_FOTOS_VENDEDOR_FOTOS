@@ -1,3 +1,7 @@
+
+![Generador de Datos de Ventas](generador.webp)
+
+
 # 🚗 Generador de Datos de Ventas
 
 Este proyecto es una herramienta diseñada para estudiantes, desarrolladores y profesionales interesados en la generación, visualización y análisis de datos estructurados. A través de este sistema, podrás crear datos simulados sobre ventas de vehículos en República Dominicana, facilitando el aprendizaje y la implementación de técnicas de análisis de datos en aplicaciones prácticas como proyectos web, aplicaciones móviles y sistemas de consumo de datos.
